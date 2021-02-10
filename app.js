@@ -15,7 +15,7 @@ var choseShape = null;
 /*
 Funciona de la siguiente manera:
 Crea las cardas random, luego crea un array de obtjetos con los datos de cada card (number y shape),
-seguidamente aplica el bubble sort a ese array, usando la propiedad number para las comparaciones.
+seguidamente aplica el select sort a ese array, usando la propiedad number para las comparaciones.
 Finalmente, reemplaza el <div id=wrapp> con otro que contiene las cartas ordenadas.
 */
 botonBubble.onclick = () => {
