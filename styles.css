@@ -1,0 +1,107 @@
+body {
+  background: green;
+}
+.container{
+    /* margin-left: auto;
+    margin-right: auto;  */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);;
+    grid-auto-flow: row;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+.card {
+  width: 90px;
+  height: 150px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.card p {
+  font: 45px/60px Times New Roman, serif;
+  text-align: center;
+}
+
+div.shape-hearts:before {
+  content: "♥";
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: red;
+}
+
+div.shape-hearts:after {
+  content: "♥";
+  font-size: 25px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: red;
+  transform: rotate(180deg);
+}
+
+div.shape-diamonds:before {
+  content: "♦";
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: red;
+}
+
+div.shape-diamonds:after {
+  content: "♦";
+  font-size: 25px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: red;
+  transform: rotate(180deg);
+}
+
+div.shape-spades:before {
+  content: "♠";
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: black;
+}
+
+div.shape-spades:after {
+  content: "♠";
+  font-size: 25px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: black;
+  transform: rotate(180deg);
+}
+
+div.shape-clubs:before {
+  content: "♣";
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: black;
+}
+
+div.shape-clubs:after {
+  content: "♣";
+  font-size: 25px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: black;
+  transform: rotate(180deg);
+}
